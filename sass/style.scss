@@ -1,0 +1,113 @@
+/* Variables */
+$color-main: #bdc3c7;
+$font-text:'Julius Sans One', sans-serif;
+$font-header:'Monda', sans-serif;
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+/* Global */
+body {
+    text-align: center;
+    background: #fff;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: $font-text;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 40px;
+}
+.section {
+    padding-top: 106px;
+    padding-bottom: 106px;
+}
+.navhed {
+    background-image: url('https://images.pexels.com/photos/2388569/pexels-photo-2388569.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    /* Navigation */
+    .mainNav {
+        .row {
+            h5 {
+                color:#e2cd11;
+            }
+        }
+    }
+    /* Header */
+    .splash {
+        height: 100vh;
+        position: relative;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .splash-inner {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+/* Services */
+.services {
+    .text {
+        h3 {
+            color:#080804;
+        }
+        h6 {
+            color:#bdc3c7;
+        }
+    }
+    .row {
+        .col-md-4 {
+            i {
+                color: #f1c40f;
+                font-size: 40px;
+            }
+            h6 {
+                color: #080804;
+            }
+            p {
+                color: #bdc3c7;
+                font-size: 12px;
+            }
+        }
+    }
+}
+/* Portfolio */
+.portfolio {
+    background-color: #ecf0f1;
+    .text {
+        h3 {
+            color:#080804;
+        }
+        h6 {
+            color:#bdc3c7;
+        }
+    }
+    .card img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    } 
+    .card-body {
+        background-color: #ecf0f1;
+        h6 {
+            color: #080804;
+        }
+        p {
+            color: #080804;
+            font-size: 12px;
+        }
+    }
+}
+/* Footer */
+.footer {
+    .row {
+        i {
+            color:#f1c40f;
+        }
+    }
+}    
+        
